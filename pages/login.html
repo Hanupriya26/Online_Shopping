@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+		<style>
+				body {
+				  background-image: url("../public/image/logb2.jpg");
+				  background-repeat: no-repeat;
+				  background-attachment: fixed;  
+				  background-size: cover;
+				}
+				</style>
+	<head>
+			<?php include 'log__in.php';?>
+		<meta charset="utf-8">
+		<title>Login Form </title>
+		<link rel="stylesheet" href="../public/css/login.css">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <link rel="stylesheet" href="css2/style.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css2/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css2/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css2/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css2/flaticon.css">
+    <link rel="stylesheet" href="css2/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css2/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css2/slick.css">
+    
+	</head>
+	<body>
+
+		<div class="login-form">
+			<h1>Login Form</h1>
+			<form action="login_auth" method="POST">
+				<input type="text" name="username" placeholder="Username" required>
+				<input type="password" name="password" placeholder="Password" required>
+			</form>
+			<form method="get" action="../pages/home.html">
+				<button type="submit">SUBMIT</button>
+			</form>
+			<form method="get" action="../pages/sign_up.html">
+				<button type="submit">SIGN UP</button>
+			</form>
+		</div>
+	</body>
+</html>

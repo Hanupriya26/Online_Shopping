@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+        <style>
+				body {
+				  background-image: url("../public/image/shop.jpg");
+				  background-repeat: no-repeat;
+				  background-attachment:fixed;
+                  background-size:cover;
+                
+				}
+				</style>
+	<head>
+		<meta charset="utf-8">
+		
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css2/bootstrap.min.css">
+    <link rel="stylesheet" href="css2/style.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css2/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css2/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css2/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css2/flaticon.css">
+    <link rel="stylesheet" href="css2/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css2/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css2/slick.css">
+		<title>SIGN UP</title>
+		<link rel="stylesheet" href="../public/css/login.css">
+
+	</head>
+	<body>
+		<div class="login-form">
+			<h1>SIGN UP</h1>
+			<form action="connectini.php" method="POST">
+				NAME:<input type="text" name="username" required><br>
+				PASSWORD:<input type="password" name="password" placeholder="Password" required><br>
+				GENDER:<input type="radio" name="gender" value="male" checked> Male
+                       <input type="radio" name="gender" value="female"> Female
+                        <input type="radio" name="gender" value="other"> Other <br> 
+				DATE OF BIRTH:<input type="date" name="bday" placeholder="DD/MM/YYYY" required><br>
+				E-mail: <input type="email" name="emailaddress" placeholder="example@gmail.com"><br>
+				PHONE NO:<input type="text" name="phoneno" required><br>
+				ADDRESS:<input type="text" name="address" required><br>
+			<!--	<input type="submit"> -->
+            </form>
+            <form method="get" action="../pages/home.html">
+				<button type="submit">Continue</button>
+			</form>
+		</div>
+	</body>
+</html>
